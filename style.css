@@ -1,0 +1,9 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f8fafc; /* Light gray background for overall page */
+}
+.hero-section {
+    background-color: #21437E; /* Dark blue from the image */
+    color: #fff;
+    padding: 4rem 1rem; /* Adjust padding as needed */
+}

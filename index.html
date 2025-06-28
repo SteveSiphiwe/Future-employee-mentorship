@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Future-Employee Digital Mentorship</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for social icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="antialiased text-gray-800">
+
+    <!-- Navigation Bar -->
+    <nav class="bg-blue-900 p-4 shadow-lg text-white">
+        <div class="max-w-7xl mx-auto flex justify-between items-center px-4">
+            <div class="text-2xl font-bold">F-EDM</div>
+            <div class="hidden md:flex space-x-8">
+                <a href="#" class="hover:text-blue-200 transition duration-300">How It Works</a>
+                <a href="#" class="hover:text-blue-200 transition duration-300">For Students</a>
+                <a href="#" class="hover:text-blue-200 transition duration-300">For Mentors</a>
+            </div>
+            <div class="flex items-center space-x-4">
+                <a href="#" class="hidden md:block hover:text-blue-200 transition duration-300">Log In</a>
+                <button class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded-lg shadow-md transition duration-300">
+                    Sign Up
+                </button>
+            </div>
+            <!-- Mobile Menu Button (Hamburger) -->
+            <div class="md:hidden">
+                <button class="text-white focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero-section text-center py-20 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="text-5xl sm:text-6xl lg:text-7xl font-extrabold leading-tight mb-6 rounded-lg text-white">
+                Future-Employee Digital Mentorship
+            </h1>
+            <p class="mt-4 text-xl sm:text-2xl text-blue-200 leading-relaxed mb-10">
+                An innovative university-industry reverse mentorship initiative connecting ambitious students with industry professionals for real-world project experience.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6">
+                <button class="bg-yellow-400 hover:bg-yellow-500 text-blue-900 font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 transform hover:-translate-y-1">
+                    I'm a Student
+                </button>
+                <button class="bg-white hover:bg-gray-100 text-blue-900 font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 transform hover:-translate-y-1">
+                    I'm a Mentor
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- How Our Platform Works Section -->
+    <div class="min-h-screen flex flex-col items-center justify-center py-12 px-4 sm:px-6 lg:px-8 bg-gray-50">
+        <div class="max-w-4xl w-full p-8 sm:p-10 lg:p-12">
+            <main class="space-y-10">
+                <section class="text-center mb-12">
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-4">
+                        How Our Platform Works
+                    </h2>
+                    <p class="text-lg text-gray-600">A simple, four-step process to bridge the skills gap.</p>
+                </section>
+
+                <section>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <!-- Step 1: Student Profile Creation -->
+                        <div class="bg-white p-6 rounded-xl shadow-md text-center">
+                            <div class="flex justify-center mb-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="text-blue-600 lucide lucide-user-circle">
+                                    <circle cx="12" cy="12" r="10"/>
+                                    <circle cx="12" cy="10" r="3"/>
+                                    <path d="M7 20.65c-.966-.991-1.5-2.09-1.5-3.15S5.534 14 7 14"/>
+                                    <path d="M17 20.65c.966-.991 1.5-2.09 1.5-3.15S18.466 14 17 14"/>
+                                </svg>
+                            </div>
+                            <p class="text-blue-600 text-sm font-semibold uppercase mb-2">STEP 1</p>
+                            <h3 class="text-xl font-bold text-gray-900 mb-3">Student Profile Creation</h3>
+                            <p class="text-gray-700">
+                                Ambitious students create profiles highlighting their academic background, career aspirations, and desired digital skills.
+                            </p>
+                        </div>
+
+                        <!-- Step 2: Mentor & Project Matching -->
+                        <div class="bg-white p-6 rounded-xl shadow-md text-center">
+                            <div class="flex justify-center mb-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="text-blue-600 lucide lucide-search">
+                                    <circle cx="11" cy="11" r="8"/>
+                                    <path d="m21 21-4.3-4.3"/>
+                                </svg>
+                            </div>
+                            <p class="text-blue-600 text-sm font-semibold uppercase mb-2">STEP 2</p>
+                            <h3 class="text-xl font-bold text-gray-900 mb-3">Mentor & Project Matching</h3>
+                            <p class="text-gray-700">
+                                Industry professionals post 'micro-projects'. Our platform intelligently matches students with the best-fit mentors and projects.
+                            </p>
+                        </div>
+
+                        <!-- Step 3: Guided Mentorship & Project Execution -->
+                        <div class="bg-white p-6 rounded-xl shadow-md text-center">
+                            <div class="flex justify-center mb-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="text-blue-600 lucide lucide-users">
+                                    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+                                    <circle cx="9" cy="7" r="4"/>
+                                    <path d="M22 21v-2a4 4 0 0 0-3-3.87"/>
+                                    <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                                </svg>
+                            </div>
+                            <p class="text-blue-600 text-sm font-semibold uppercase mb-2">STEP 3</p>
+                            <h3 class="text-xl font-bold text-gray-900 mb-3">Guided Mentorship & Project Execution</h3>
+                            <p class="text-gray-700">
+                                Matched pairs collaborate virtually. Mentors provide expert guidance and feedback as students work on their chosen projects, applying theoretical knowledge to solve real-world problems and building practical competencies.
+                            </p>
+                        </div>
+
+                        <!-- Step 4: Tangible Portfolio Building -->
+                        <div class="bg-white p-6 rounded-xl shadow-md text-center">
+                            <div class="flex justify-center mb-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="text-blue-600 lucide lucide-briefcase">
+                                    <rect width="20" height="14" x="2" y="7" rx="2" ry="2"/>
+                                    <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
+                                </svg>
+                            </div>
+                            <p class="text-blue-600 text-sm font-semibold uppercase mb-2">STEP 4</p>
+                            <h3 class="text-xl font-bold text-gray-900 mb-3">Tangible Portfolio Building</h3>
+                            <p class="text-gray-700">
+                                Upon project completion, students finalize their deliverables and receive mentor validation. Each completed project becomes a verifiable asset for their digital professional portfolio, showcasing their new skills to potential employers.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
+
+    <!-- A Win-Win for Everyone Section -->
+    <section class="bg-gray-100 py-16 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-4xl mx-auto text-center mb-12">
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-4">
+                A Win-Win for Everyone
+            </h2>
+            <p class="text-lg text-gray-600">Future-Employee Digital Mentorship is an innovative university-industry reverse mentorship initiative. 
+                We address the critical skills mismatch between academia and industry by equipping university students with practical, 
+                in-demand digital competencies through real-world, project-based challenges. Our mission is to enhance graduate employability and foster a highly skilled, job-ready workforce for the digital economy.</p>
+        </div>
+        <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- For Ambitious Students Card -->
+            <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                <img src="https://placehold.co/600x200/21437E/FFFFFF?text=Students" alt="Students collaborating" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-2xl font-bold text-blue-800 mb-4">For Ambitious Students</h3>
+                    <ul class="text-gray-700 space-y-3">
+                        <li class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-green-500 mr-2 lucide lucide-check">
+                                <polyline points="20 6 9 17 4 12"/>
+                            </svg>
+                            Gain practical, in-demand digital competencies.
+                        </li>
+                        <li class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-green-500 mr-2 lucide lucide-check">
+                                <polyline points="20 6 9 17 4 12"/>
+                            </svg>
+                            Apply theoretical knowledge to solve real-world problems.
+                        </li>
+                        <li class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-green-500 mr-2 lucide lucide-check">
+                                <polyline points="20 6 9 17 4 12"/>
+                            </svg>
+                            Build a tangible, verifiable professional portfolio.
+                        </li>
+                        <li class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-green-500 mr-2 lucide lucide-check">
+                                <polyline points="20 6 9 17 4 12"/>
+                            </svg>
+                            Receive expert guidance and feedback from industry pros.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- For Industry Mentors Card -->
+            <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                <img src="https://placehold.co/600x200/21437E/FFFFFF?text=Mentors" alt="Industry professional leading a meeting" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-2xl font-bold text-blue-800 mb-4">For Industry Mentors</h3>
+                    <ul class="text-gray-700 space-y-3">
+                        <li class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-green-500 mr-2 lucide lucide-check">
+                                <polyline points="20 6 9 17 4 12"/>
+                            </svg>
+                            Discover and nurture young, emerging talent.
+                        </li>
+                        <li class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-green-500 mr-2 lucide lucide-check">
+                                <polyline points="20 6 9 17 4 12"/>
+                            </svg>
+                            Get fresh perspectives on your company's challenges.
+                        </li>
+                        <li class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-green-500 mr-2 lucide lucide-check">
+                                <polyline points="20 6 9 17 4 12"/>
+                            </svg>
+                            Contribute to building a skilled, job-ready workforce.
+                        </li>
+                        <li class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-green-500 mr-2 lucide lucide-check">
+                                <polyline points="20 6 9 17 4 12"/>
+                            </svg>
+                            Enhance your leadership and mentorship skills.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ready to Bridge the Skills Gap Section -->
+    <section class="bg-blue-900 text-white py-20 px-4 sm:px-6 lg:px-8 text-center">
+        <div class="max-w-3xl mx-auto">
+            <h2 class="text-4xl sm:text-5xl font-extrabold leading-tight mb-4">
+                Ready to Bridge the Skills Gap?
+            </h2>
+            <p class="text-lg sm:text-xl text-blue-200 mb-8">
+                Join our community of forward-thinking students and industry leaders today. Build your future, one project at a time.
+            </p>
+            <button class="bg-yellow-400 hover:bg-yellow-500 text-blue-900 font-bold py-3 px-10 rounded-full shadow-lg transition duration-300 transform hover:-translate-y-1">
+                Get Started Now
+            </button>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section class="bg-gray-50 py-16 px-4 sm:px-6 lg:px-8 text-center">
+        <div class="max-w-xl mx-auto">
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-6">
+                Contact Us
+            </h2>
+            <p class="text-lg text-gray-700 mb-4">
+                Have questions or want to learn more? Reach out to us at:
+            </p>
+            <a href="mailto:siphiwe@mailbox.unideb.hu" class="text-blue-700 hover:text-blue-900 font-semibold text-xl underline break-all">
+                siphiwe@mailbox.unideb.hu
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center md:items-start space-y-8 md:space-y-0">
+            <div class="text-center md:text-left">
+                <h3 class="text-2xl font-bold mb-2">Future-Employee Digital Mentorship</h3>
+                <p class="text-gray-400">Enhancing graduate employability for the digital economy.</p>
+            </div>
+            <div class="flex space-x-6">
+                <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                    <i class="fab fa-twitter text-2xl"></i>
+                </a>
+                <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                    <i class="fab fa-linkedin-in text-2xl"></i>
+                </a>
+            </div>
+        </div>
+        <div class="mt-8 pt-8 border-t border-gray-700 text-center text-gray-500 text-sm">
+            <p>&copy; 2025 F-EDM. All rights reserved.</p>
+            <div class="mt-2 space-x-4">
+                <a href="#" class="hover:text-white transition duration-300">Privacy Policy</a>
+                <a href="#" class="hover:text-white transition duration-300">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
